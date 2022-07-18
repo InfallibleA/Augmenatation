@@ -5,7 +5,8 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-    return a.exec();
+        MainWindow w;
+        w.setWindowTitle("Аугментатор");
+        w.show();
+        return a.exec();
 }
